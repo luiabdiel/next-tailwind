@@ -8,14 +8,15 @@ export function TagFeature() {
     "
     >
       <span
-        className="inline-block h-6 px-[10px] bg-white rounded-2xl text-sm/6
-        font-medium text-brand-700
+        className="inline-block h-6 px-[10px] bg-white rounded-2xl text-xs/6 
+        xl:text-sm/6 font-medium text-brand-700
       "
       >
         New feature
       </span>
       <a
-        className="flex items-center gap-1 text-brand-700 hover:opacity-50 transition-opacity"
+        className="flex items-center gap-1 text-xs/6 xl:text-sm/6 text-brand-700 
+        hover:opacity-50 transition-opacity"
         href="/"
       >
         Check out the team dashboard <FiArrowRight />
