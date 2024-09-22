@@ -1,4 +1,11 @@
-import { FiMail } from "react-icons/fi";
+import {
+  FiBarChart2,
+  FiCommand,
+  FiMail,
+  FiMessageCircle,
+  FiSmile,
+  FiZap,
+} from "react-icons/fi";
 import { GridContainer } from "../GridContainer";
 import { ItemFeature } from "./ItemFeature";
 
@@ -29,27 +36,27 @@ export function SectionFeatures() {
             text="Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop."
           />
           <ItemFeature
-            icon={<FiMail size={24} className="text-brand-600" />}
+            icon={<FiZap size={24} className="text-brand-600" />}
             title="Deliver instant answers"
             text="An all-in-one customer service platform that helps you balance everything your customers need to be happy."
           />
           <ItemFeature
-            icon={<FiMail size={24} className="text-brand-600" />}
+            icon={<FiBarChart2 size={24} className="text-brand-600" />}
             title="Manage your team with reports"
             text="Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks."
           />
           <ItemFeature
-            icon={<FiMail size={24} className="text-brand-600" />}
+            icon={<FiSmile size={24} className="text-brand-600" />}
             title="Connect with customers"
             text="Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion."
           />
           <ItemFeature
-            icon={<FiMail size={24} className="text-brand-600" />}
+            icon={<FiCommand size={24} className="text-brand-600" />}
             title="Connect the tools you already use"
             text="Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools."
           />
           <ItemFeature
-            icon={<FiMail size={24} className="text-brand-600" />}
+            icon={<FiMessageCircle size={24} className="text-brand-600" />}
             title="Our people make the difference"
             text="We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help."
           />
