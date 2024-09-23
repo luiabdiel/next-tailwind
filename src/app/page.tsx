@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <Fragment>
       <SectionHero />
-      {/* <SectionCompanies /> */}
-      {/* <SectionFeatures />  */}
+      <SectionCompanies />
+      {/* <SectionFeatures /> */}
     </Fragment>
   );
 }
