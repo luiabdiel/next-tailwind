@@ -6,7 +6,7 @@ export default function Home() {
     <Fragment>
       <SectionHero />
       <SectionCompanies />
-      {/* <SectionFeatures /> */}
+      <SectionFeatures />
     </Fragment>
   );
 }
